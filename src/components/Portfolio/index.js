@@ -1,6 +1,6 @@
 import React from "react";
 import runbuddy from '../../assets/images/run-buddy.png'
-import readmegene from '../../assets/images/readmegenerator.png'
+import readmegen from '../../assets/images/readmegenerator.png'
 
 function Portfolio () {
     return (
