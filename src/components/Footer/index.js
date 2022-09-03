@@ -19,6 +19,9 @@ function Footer() {
                 <li>
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                 </li>
+                <li>
+                    <a href=""
+                </li>
     
             </ul>
     
