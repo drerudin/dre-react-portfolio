@@ -155,6 +155,11 @@ li {
   display: flex;
   justify-content: space-between;
   top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: var(--dark);
+  z-index: 1;
 }
 
 nav a:hover {
@@ -303,8 +308,105 @@ a {
 
 .footer {
   position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer ul {
   display: flex;
   justify-content: space-between;
-  bottom: 0;
-  background: black;
+  width: 100%;
 }
+
+.footer ul li {
+  margin: 0 10px;
+}
+
+.footer ul li a {
+  color: var(--light);
+}
+
+.footer ul li a:hover {
+  text-decoration: none;
+}
+
+.footer ul li a:active {
+  color: var(--secondary);
+}
+
+#about {
+  margin-top: 50px;
+}
+
+.together {
+  margin-top: 50px;
+}
+
+#about p {
+  margin-bottom: 50px;
+}
+
+#ourstory {
+  margin-top: 50px;
+}
+
+#ourstory p {
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section p {
+  font-size: 20px;
+}
+
+#portfolio {
+  margin-top: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.project img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+
+
+

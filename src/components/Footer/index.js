@@ -6,7 +6,7 @@ import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
         return (
             <footer className="footer" id="footer">
-            <h4>Contact Me</h4>
+                <div className="footer-content">
     
             <ul>
     
@@ -20,10 +20,11 @@ function Footer() {
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                 </li>
                 <li>
-                    <a href=""
+                    <a href="https://docs.google.com/document/d/1dAO5QljPQUruDjbUj1EK9472JhWhA5da7xq55c0ELp4/edit?usp=sharing" target="_blank" rel="noreferrer noopener">Resume Download</a>
                 </li>
     
             </ul>
+            </div>
     
         </footer>
         );
