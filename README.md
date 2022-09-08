@@ -18,3 +18,4 @@ https://github.com/drerudin/dre-react-portfolio
 
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/99576524/189006679-6a09fdb0-16a2-4111-bd6d-eeb04c05b428.png)
